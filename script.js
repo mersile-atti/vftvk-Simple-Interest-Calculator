@@ -1,9 +1,5 @@
 function compute()
 {
-    p = document.getElementById("principal").value;
-    if(p=="") {
-        alert("Please fill the form")
-        return false 
     var principal = document.getElementById("principal").value;
     var rate = document.getElementById('rate').value;
     var years = document.getElementById('years').value;
@@ -16,11 +12,3 @@ function updateRate() {
     var rateval = document.getElementById("rate").value;
     document.getElementById("rate_val").innerText=rateval;
 }
-
-function validateForm() {
-    let x = document.forms["myForm"]["fname"].value;
-    if (x == "") {
-      alert("Name must be filled out");
-      return false;
-    }
-  }
