@@ -12,7 +12,7 @@
     <div class="maindiv">
       <h1>Simple Interest Calculator</h1>
 
-      Amount <input type="number" id="principal" /> <br />
+      Amount <input type="number" id="principal" min="0" required /> <br />
       Rate
       <input
         type="range"
@@ -53,9 +53,9 @@
 
       <button onclick="compute()">Compute Interest</button>
       <span id="result"> </span>
+      <footer id="footer">
+        &#169; This Calculator belongs to -- OUMAR MERSILE ATTI MAHAMAT --
+      </footer>
     </div>
   </body>
-  <footer>
-    &#169; This Calculator belongs to -- OUMAR MERSILE ATTI MAHAMAT --
-  </footer>
 </html>
